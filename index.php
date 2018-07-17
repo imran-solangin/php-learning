@@ -1,19 +1,9 @@
 <?php
 
+$query = require 'bootstrap.php';
 
 
-
-require 'functions.php';
-require 'task.php';
+$routes = new Router;
 
 
-$pdo = connectToDB();
-
-
-$tasks = fetchAllTask($pdo);
-
-
-
-
-
-require 'index.view.php';
+require 'routes.php';
