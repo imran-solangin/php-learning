@@ -1,7 +1,7 @@
 <?php
 
 
-$routes->define([
+$router->define([
 
 
     '' => 'controllers/index.php',
@@ -10,7 +10,7 @@ $routes->define([
 
     'about/culture' => 'controllers/about-culture.php',
 
-    'contact' => 'controllers/contact.php',
+    'contact' => 'controllers/contact.php'
 
 
 
