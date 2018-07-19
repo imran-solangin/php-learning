@@ -31,7 +31,7 @@ public function insert($table, $parameters)
 
     $sql = sprintf(
 
-        'insert into %s {%s} values (%s)',
+        'insert into %s (%s) values (%s)',
 
        $table,
 

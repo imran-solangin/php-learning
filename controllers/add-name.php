@@ -1,7 +1,7 @@
 <?php 
 
 
-$app['database']->insert('users', [
+$app['database']->insert('user', [
 
         'name' => $_POST['name']
 
